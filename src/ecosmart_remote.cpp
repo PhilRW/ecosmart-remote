@@ -22,7 +22,7 @@ const char *mqtt_password = "";
 const int mqtt_port = 1883;
 
 
-// OTA upgrading
+// OTA upgrading & MQTT client ID
 #define SENSORNAME "ecosmart" //change this to whatever you want to call your device
 #define OTA_PASSWORD "your-OTA-password"
 uint16_t OTAport = 8266;
@@ -209,9 +209,7 @@ void callback(char *topic, byte *payload, int length) {
         setTempF(roundf(temp_f));
         setTempC(roundf(temp_c));
 
-        if (stateOn) {
-            sendCommand();
-        }
+        sendCommand();
 
     }
 
