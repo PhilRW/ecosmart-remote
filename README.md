@@ -119,7 +119,7 @@ o <--- data out
 [SW1]
 ```
 
-Since I am using a [NodeMCU](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B010N1SPRK) device, it is able to be powered directly from the +12V pin to the <u>VIN</u> pin. Connect ground to ground, connect the EcoSmart's <u>data in</u> to the `OUTPUT_PIN` (D6 by default) and the EcoSmart's <u>data out</u> pin to the `RECV_PIN` (D2 by default).
+~~Since I am using a [NodeMCU](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B010N1SPRK) device, it is able to be powered directly from the +12V pin to the <u>VIN</u> pin.~~ After noticing some flakiness I have decided to power the NodeMCU from a separate USB power supply (but grounds must still be connected). Connect ground to ground, connect the EcoSmart's <u>data in</u> to the `OUTPUT_PIN` (D6 by default) and the EcoSmart's <u>data out</u> pin to the `RECV_PIN` (D2 by default).
 
 ### Software
 
