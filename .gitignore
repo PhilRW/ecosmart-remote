@@ -2,3 +2,4 @@
 .pioenvs
 .piolibdeps
 CMakeListsPrivate.txt
+.DS_Store
