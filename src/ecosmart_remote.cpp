@@ -35,7 +35,7 @@ const char *temperature_command_topic = "ecosmart/temperature/set";
 const char *temperature_state_topic = "ecosmart/temperature";
 const char *flow_state_topic = "ecosmart/flow";
 
-const char *on_mode = "on";
+const char *on_mode = "heat";
 const char *off_mode = "off";
 const char *flow_on = "ON";
 const char *flow_off = "OFF";
@@ -81,6 +81,7 @@ void setup_wifi() {
     Serial.print("Connecting to ");
     Serial.println(ssid);
 
+    WiFi.disconnect();
     WiFi.mode(WIFI_STA);
     WiFi.begin(ssid, password);
 
