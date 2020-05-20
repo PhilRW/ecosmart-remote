@@ -133,7 +133,7 @@ climate:
     max_temp: 60
     modes:
       - 'off'
-      - 'on'
+      - 'heat'
     mode_command_topic: "ecosmart/mode/set"
     mode_state_topic: "ecosmart/mode"
     temperature_command_topic: "ecosmart/temperature/set"
