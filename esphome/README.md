@@ -1,6 +1,6 @@
 # Working with ESPHome
 
-Place the `ecosmart.h` file in your `esphome/` configuration directory, then you can include these sections in your device YAML config:
+Place the [`ecosmart.h`](ecosmart.h) file in your `esphome/` configuration directory, then you can include these sections in your device YAML config:
 
 ```yaml
 esphome:
@@ -30,4 +30,4 @@ binary_sensor:
         device_class: moving
 ```
 
-> NOTE: The pins that connect the NodeMCU board with the EcoSmart control board are currently hard-coded in the `[ecosmart.h](ecosmart.h)` file.
+> NOTE: The pins that connect the NodeMCU board with the EcoSmart control board are currently hard-coded in the [`ecosmart.h`](ecosmart.h) file.
