@@ -30,4 +30,4 @@ binary_sensor:
         device_class: moving
 ```
 
-| NOTE: The pins that connect the NodeMCU board with the EcoSmart control board are currently hard-coded in the `[ecosmart.h](ecosmart.h)` file.
+> NOTE: The pins that connect the NodeMCU board with the EcoSmart control board are currently hard-coded in the `[ecosmart.h](ecosmart.h)` file.
