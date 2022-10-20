@@ -4,7 +4,7 @@ Place the [`ecosmart.h`](ecosmart.h) file in your `esphome/` configuration direc
 
 ```yaml
 esphome:
-  name: Whatever you want
+  name: esp-ecosmart  # or whatever you want
   platform: ESP8266
   board: nodemcuv2
   includes:
