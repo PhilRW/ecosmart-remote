@@ -140,3 +140,6 @@ climate:
     temperature_state_topic: "ecosmart/temperature"
 ```
 
+## ESPHome Integration
+
+For easier integration with ESPHome, see [this document](esphome/README.md).
